@@ -81,10 +81,28 @@ Disable the login button or replace with logged in if $_SESSION['user'] is set--
 
         <h3>Post Title</h3>
         <p>
-            <table style="width:100%">
+            <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2>Left-align Headings</h2>
+<p>To left-align the table headings, use the CSS text-align property.</p>
+
+<table style="width:100%">
   <tr>
     <th>Firstname</th>
-    <th>Lastname</th>
+    <th>Lastname</th> 
     <th>Age</th>
   </tr>
   <tr>
@@ -96,6 +114,11 @@ Disable the login button or replace with logged in if $_SESSION['user'] is set--
     <td>Eve</td>
     <td>Jackson</td>
     <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
   </tr>
 </table>
             <time>Febuary 16th, 2021</time>
