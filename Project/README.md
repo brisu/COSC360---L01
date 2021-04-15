@@ -3,7 +3,7 @@
 ### Milestone 1: Proposal
 **Main**: Our proposed project is a nice community form on topics of the users choice that will mimic the style of old Bungie forums. The forum aims to allow for users to browse freely without an account. Showing different topics in varying categories. Catering to the taste of a diverse user base.
 
-**Team members**: Camila, Cody, Brian, Jack
+**Team members**: Brian
 
 **Requirements**:
 - User side functionalities:
